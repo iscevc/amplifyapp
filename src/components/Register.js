@@ -29,7 +29,7 @@ const Register = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    axios.get('http://fourofjuly.us-east-1.elasticbeanstalk.com/api/auth/roles')
+    axios.get('https://fourofjul.us-east-1.elasticbeanstalk.com/api/auth/roles')
     .then((response) => {
       setRoles(response.data)
     })

@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = "http://fourofjuly.us-east-1.elasticbeanstalk.com/api/auth"
+const API_URL = "https://fourofjul.us-east-1.elasticbeanstalk.com/api/auth"
 
 const register = (username, email, password, role) => {
   return axios.post(`${API_URL}/signup`, {
